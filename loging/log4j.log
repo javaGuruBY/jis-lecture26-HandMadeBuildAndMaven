@@ -1,0 +1,7 @@
+2020-11-13 21:53:01 INFO  LogForJ:9 - info Entering application.
+2020-11-13 21:53:01 ERROR LogForJ:10 - error Didn't do it.
+2020-11-13 21:54:21 INFO  LogForJ:9 - info Entering application.
+2020-11-13 21:54:21 ERROR LogForJ:10 - error Didn't do it.
+2020-11-13 21:54:41 INFO  LogForJ:9 - info Entering application.
+2020-11-13 21:54:41 ERROR LogForJ:10 - error Didn't do it.
+2020-11-13 21:54:41 TRACE LogForJ:11 - traceExiting application.
