@@ -10,6 +10,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>model</artifactId>
+    <version>1.0.1-snapshot</version>
 
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>myRepository</id>-->
+<!--            <name>max-releases</name>-->
+<!--            <url>http://localhost:8081/artifactory/libs-release</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
+    <distributionManagement>
+        <repository>
+            <id>javaGuruGit</id>
+            <name>javaGuruTest</name>
+            <url>https://maven.pkg.github.com/javaGuruBY/jis-lecture26-HandMadeBuildAndMaven</url>
+        </repository>
+    </distributionManagement>
 
 </project>
+

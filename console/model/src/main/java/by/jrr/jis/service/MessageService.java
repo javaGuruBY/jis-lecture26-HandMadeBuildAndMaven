@@ -13,4 +13,8 @@ public class MessageService {
                 "Message updated").get(ThreadLocalRandom.current().nextInt(0, 3));
 
     }
+
+    public static String getVersion() {
+        return "v1.0.1-snapshot";
+    }
 }
