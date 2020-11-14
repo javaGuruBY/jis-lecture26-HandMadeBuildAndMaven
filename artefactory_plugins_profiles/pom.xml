@@ -150,11 +150,14 @@
     </build>
 
     <dependencies>
+
         <dependency>
             <groupId>by.jrr.jismultimodule</groupId>
             <artifactId>model</artifactId>
             <version>${jis.model.version}</version>
         </dependency>
+
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -163,13 +166,20 @@
 
 
     </dependencies>
-
     <repositories>
         <repository>
-            <id>myRepository</id>
-            <name>max-releases</name>
-            <url>http://localhost:8081/artifactory/libs-release</url>
+            <id>javaGuruGit</id>
+            <name>javaGuruTest</name>
+            <url>https://maven.pkg.github.com/javaGuruBY/jis-lecture26-HandMadeBuildAndMaven</url>
         </repository>
     </repositories>
+
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>myRepository</id>-->
+<!--            <name>max-releases</name>-->
+<!--            <url>http://localhost:8081/artifactory/libs-release</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
 </project>
